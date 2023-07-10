@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doggie-app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <header id="header-container">
+        <div id="logo-container">
+          <div id="logo-icon">
+            <img src="images/dog.svg" alt="" id="logo-pic" />
+          </div>
+          <div id="logo-text">Doggie app</div>
+        </div>
+        <div class="drop-down-container" data-dropdown>
+          <button class="drop-down-btn" data-dropdown-btn>
+            <img
+              src="images/menu.svg"
+              class="menu-icon"
+              alt=""
+              data-dropdown-btn
+            />
+          </button>
+          <div class="drop-down-menu">
+            <div class="item-container">
+              <div class="item-icon">
+                <img src="images/face-man.svg" alt="" class="item-pic" />
+              </div>
+              <div class="item-text">Profile</div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <img src="images/cog-outline.svg" alt="" class="item-pic" />
+              </div>
+              <div class="item-text">Settings</div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <img src="images/logout.svg" alt="" class="item-pic" />
+              </div>
+              <div class="item-text">Log out</div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <section>
+          <div id="carousel" data-carousel>
+            <button id="carousel-btn-prev" data-carousel-btn="prev">
+              &#8678;
+            </button>
+            <button id="carousel-btn-next" data-carousel-btn="next">
+              &#8680;
+            </button>
+            <ul class="slider" data-slides>
+              <li class="slide" data-active>
+                <img
+                  src="images/charlesdeluvio-pOUA8Xay514-unsplash.jpg"
+                  alt="Dog image"
+                  class="slider-img"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="images/oscar-sutton-yihlaRCCvd4-unsplash.jpg"
+                  alt="Dog image"
+                  class="slider-img"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="images/peri-stojnic-5Vr_RVPfbMI-unsplash.jpg"
+                  alt="Dog image"
+                  class="slider-img"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="images/richard-brutyo-Sg3XwuEpybU-unsplash.jpg"
+                  alt="Dog image"
+                  class="slider-img"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="images/t-r-photography-TzjMd7i5WQI-unsplash.jpg"
+                  alt="Dog image"
+                  class="slider-img"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="images/taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg"
+                  alt="Dog image"
+                  class="slider-img"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <div id="nav-container">
+          <button class="nav-btn">
+            <img
+              src="images/newspaper-variant-outline.svg"
+              alt=""
+              class="nav-icon"
+            />
+          </button>
+          <button class="nav-btn">
+            <img src="images/video-outline.svg" alt="" class="nav-icon" />
+          </button>
+          <button class="nav-btn">
+            <img src="images/image.svg" alt="" class="nav-icon" />
+          </button>
+          <button class="nav-btn">
+            <img src="images/chat.svg" alt="" class="nav-icon" />
+          </button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
