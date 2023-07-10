@@ -2,7 +2,7 @@
 
 Very small mobile page to practice dynamic UI skills.
 
-🔗 GitHub pages link: https://ekat-velaz.github.io/to-do-list/
+🔗 GitHub pages link: https://ekat-velaz.github.io/doggie-app/
 
 What did I practice with this project:
 

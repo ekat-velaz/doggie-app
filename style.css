@@ -213,7 +213,7 @@ body {
   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
   display: grid;
   gap: 10px;
-  z-index: 3;
+  z-index: 9999;
 }
 
 .drop-down-container.active > .drop-down-btn + .drop-down-menu {
